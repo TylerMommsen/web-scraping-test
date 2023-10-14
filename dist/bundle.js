@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=JSON.parse('[{"u2":"Rolex Sea-Dweller 116600 Ceramic Bezel"}]');console.log(e[0].u2)})();

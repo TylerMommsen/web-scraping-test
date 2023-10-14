@@ -2,14 +2,19 @@
 	"name": "web-scraping-test",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"main": "display.js",
 	"scripts": {
-		"start": "node index"
+		"start": "webpack serve --mode development"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
 		"puppeteer": "^21.3.8"
+	},
+	"devDependencies": {
+		"webpack": "^5.89.0",
+		"webpack-cli": "^5.1.4",
+		"webpack-dev-server": "^4.15.1"
 	}
 }
